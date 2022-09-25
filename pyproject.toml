@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "redactor"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.85.0"
+ffmpeg-python = "^0.2.0"
+Pillow = "^9.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.18.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
